@@ -9,22 +9,36 @@ body {
     color: #fff;
     display: flex;
     justify-content: space-between;
-    padding: 1em;
+  }
+
+  header h1 {
+    margin-left: 2em;
   }
   
-  header h1 {
+  main h2 {
     margin: 0;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  main p {
+    display: inline-block;
+    font-family: Poppins, sans-serif;
+    color: #000;
+    font-size: 24px;
+    text-align: center
   }
   
   header nav ul {
     list-style: none;
-    margin: 0;
+    margin: 2em;
     padding: 0;
     display: flex;
   }
   
   header nav li {
-    margin-right: 1em;
+    margin-right: 2em;
   }
   
   header nav a {
@@ -40,3 +54,14 @@ body {
     margin-bottom: 2em;
   }
   
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+
+
