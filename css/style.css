@@ -9,25 +9,42 @@ body {
     color: #fff;
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
 
   header h1 {
     margin-left: 2em;
   }
-  
-  main h2 {
-    margin: 0;
-    display: flex;
-    justify-content: center;
 
+  header a{
+    font-display: none;
+    color: #fff;
+    text-decoration: none;
+  }
+  .pic img {
+    
+    box-shadow: 10px 5px 5px #3e606f;
   }
 
-  main p {
+  div.pic {
+    display: flex;
+    align-items: center;
+  }
+  
+  main section {
+
+    padding: 10px;
     display: inline-block;
     font-family: Poppins, sans-serif;
     color: #000;
-    font-size: 24px;
-    text-align: center
+    font-size: 30px;
+    text-align: center;
+
+  }
+  main h2 {
+    display: flex;
+    justify-content: center;
+
   }
   
   header nav ul {
@@ -48,6 +65,7 @@ body {
   
   main {
     padding: 1em;
+    display:flex
   }
   
   section {
@@ -61,7 +79,19 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
   }
 
+  div.icons {
+    display: flex;
+    justify-content: space-between;
+}
 
+div.copy {
+    display: flex;
+    margin-left: 2em;
+}
+
+.icons img{
+    padding: 1em;
+    margin-right: 2em;
+}
